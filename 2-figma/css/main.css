@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body,html{
+  scroll-behavior:smooth ;
+}
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .box-navigation {
+    display: flex;
+    box-shadow: 0 2px 15px #83868b;
+  }
+  .alsep-logo {
+    padding: 13px 33px 13px 111px;
+  }
+  .form-language {
+    padding: 29px 23px 29px 0;
+  }
+  .til {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 144%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5c5d5f;
+  }
+  select {
+    border: none;
+  }
+  .navbar {
+    display: flex;
+    gap: 30px;
+    padding: 29.5px 36px 29.5px 0;
+  }
+  .navbar a {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 144%;
+    color: #5c5d5f;
+  }
+  .navbar a:hover {
+    color: #004c92;
+  }
+  .navbar a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1.3px;
+    background-color: #004c92;
+  }
+  .navbar li:hover a::after {
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+  }
+  .call-icon {
+    padding: 31px 26px 31px 0;
+  }
+  .tel-form {
+    padding: 29px 50px 29px 0;
+  }
+  .header-button {
+    display: flex;
+    gap: 20px;
+    padding: 22px 124px 22px 100px;
+  }
+  .voyti a {
+    border: 1px solid #004c92;
+    padding: 8px 32px;
+    border-radius: 20px;
+    color: #004c92;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 144%;
+  }
+  .voyti a:hover{
+      background: linear-gradient(93.89deg, #1482E8 5.35%, #28C6DC 94.46%);
+      box-shadow: 0px 16px 24px rgba(0, 167, 204, 0.2), 0px 2px 6px rgba(0, 167, 204, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+      color: #ffff;
+  }
+  .registratsiya a{
+      padding: 8px 32px;
+      border-radius: 20px;
+      color: white;
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 144%;
+      background: linear-gradient(93.89deg, #1482E8 5.35%, #28C6DC 94.46%);
+      box-shadow: 0px 16px 24px rgba(0, 167, 204, 0.2), 0px 2px 6px rgba(0, 167, 204, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+      border-radius: 40px;
+  }
+  .registratsiya a:hover{
+      border: 1px solid #004c92;
+      padding: 8px 32px;
+      border-radius: 20px;
+      color: #004c92;
+      background: #ffff;
+  }
+  .background{
+    background-image: url(../img/упаковка-восстановлено\ 1.jpg);
+    background-repeat: no-repeat;
+  }
+  .background h2{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 120%;
+display: flex;
+align-items: center;
+padding: 256px 775px  29px 146px;
+color: #FFFFFF;
+
+  }
+  .box-button1{
+    padding: 0 1056px 154px 136px;
+    margin-top: 29px;
+  }
+  .background a{
+    padding: 16px 32px;
+    background: linear-gradient(93.89deg, #1482E8 5.35%, #28C6DC 94.46%);
+box-shadow: 0px 16px 24px rgba(0, 167, 204, 0.2), 0px 2px 6px rgba(0, 167, 204, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 40px;
+
+  }
+  /* section1 uchun stillar */
+  .section2{
+   background-color: #EFF8FD;
+  }
+  .section2 ul{
+    display: flex;
+   
+   
+
+  }
+.mini{
+    width: 250px;
+    margin: 24px 40px 0 80px;
+    text-align: center;
+    
+}
+.mini img{
+    padding: 140px 83px 20px 65px;
+}
+.mini h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+     color: #003945;
+}
+.mini p{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120%;
+padding: 30px 33px 40px 44px;
+}
+.mini:hover{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.umniy{
+    width: 250px;
+    margin: 39px 85px 7px 0px;
+
+}
+.umniy img{
+    padding:0 125px 7px 50px ;
+ 
+}
+.umniy h2{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+}
+.umniy p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120%;
+text-align: center;
+padding-top:30px ;
+}
+.umniy:hover{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.onlayn{
+    width: 250px;
+    /* text-align: center; */
+    margin: 96px 0px 31px 0px;
+  
+}
+.onlayn h2{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+padding-top: 12px;
+}
+.onlayn p{
+    
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120%;
+padding-top: 30px;
+padding-right: 30px;
+padding: 30px 20px 0 ;
+}
+.onlayn:hover{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.aksessuar{
+    width: 250px;
+    margin: 130px 190px 32px 70px;
+    
+}
+.aksessuar h2{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+padding-top: 28px;
+}
+.aksessuar p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+    padding-top: 30px;
+}
+.aksessuar:hover{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+  /* section1 uchun stillar */
+/* section3 ucun stillar */
+.box-section3-card{
+    display: flex;
+  justify-content: space-evenly;
+}
+.alsep{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 120%;
+color: #1A3555;
+text-align: center;
+padding-top: 65px;
+padding-bottom: 88px;
+}
+.box-section3-card ul li{
+    display: flex;
+    padding: 7px;
+align-items: center;
+justify-content: space-around;
+border-radius: 20px;
+border: 1px solid #83868b;
+
+}
+.pos img{
+  padding: 12px 7px 4px 3px;
+}
+.karti img{
+    padding: 16px 3px 20px 9px;
+   
+}
+.karti{
+    margin-top:25px ;
+}
+.kod img{
+padding: 12px 10px 19px 9px;
+}
+.karta img{
+    padding: 17px 20px 19px 9px;
+  
+}
+.karta{
+    margin-top: 25px;
+}
+.img{
+   position: relative;
+   bottom: 85px;
+}
+.paymi{
+    position: relative;
+    left: 680px;
+    bottom: 330px;
+}
+.visa{
+    position: relative;
+    bottom: 270px;
+    left: 530px;
+}
+.text{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+text-align: center;
+}
+.gde{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 144%;
+text-align: center;
+background: linear-gradient(93.89deg, #1482E8 5.35%, #28C6DC 94.46%);
+color: #FFFFFF;
+border-radius: 90px;
+padding: 11px 75px 13px 85px;
+}
+.box-section3-button{
+   margin: 28px 500px 60px 568px;
+  
+}
+/* section3 ucun stillar */
+/* section4 uchun stillar */
+.section4{
+    background-color: #EFF8FD;
+}
+.section4 h2{
+    text-align: center;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 120%;
+padding-top: 51px;
+padding-bottom:24px ;
+}
+.tariflar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tariflar li{
+    width: 380px;
+    height: 220px;
+    background-color: #ffff;
+    border-radius: 10px;
+margin-bottom: 65px;
+}
+.tariflar li h3{
+    padding: 24px 53px 0 19px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+}
+.tariflar li p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 144%;
+padding: 13px 229px 32px 19px;
+}
+.span0{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 120%;
+padding: 0 26px 15px 263px;
+
+color: #E33030;
+}
+.span{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    padding: 0 26px 15px 227px;
+    
+    color: #E33030;  
+}
+/* section4 uchun stillar */
+/* section5 uchun stillar */
+.section5 h2{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  padding-top: 66px;
+}
+.box-section5{
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.box-section5 img{
+  /* position: relative;
+  top: 40px; */
+  padding: 0px 35px 0 2px ;
+}
+.box-section5 ul{
+position: relative;
+top: 50px;
+}
+.section5-tex1{
+  padding: 58px 25px 114px 235px;
+}
+.section5-tex2{
+  padding: 55px 210px 114px 30px;
+}
+.section5-tex2 li{
+  padding-bottom: 50px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+.section5-tex1 li{
+  padding-bottom: 55px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+.box-section5 li::after{
+  content: "";
+  width: 100%;
+  height: 1.5px;
+  background-color: #00A7CC;
+  display: block;
+}
+/* section5 uchun stillar */
+/* section6 uchun stillar */
+.section6{
+  display: flex;
+  width: 1181px;
+  height: 401px;
+  border: 3px solid #DADADA;
+border-radius: 20px;
+}
+.section6 img{
+padding: 94px 173px 103px 103px;
+}
+.box-section6-title h2{
+  padding:72px 113px 33px 200px ;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 120%;
+}
+.box-section6-title p{
+  text-align: right;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+padding: 0 111px 53px 30px;
+}
+.box-section6-title a{
+  padding: 8px 35px ;
+  border: 1px solid #004C92;
+  border-radius: 20px;
+  color: #004C92;
+  margin-left: 465px;
+}
+/* section6 uchun stillar */
+/* section7 uchun stillar */
+.section7{
+  display: flex;
+  padding-top: 87px;
+}
+.section7-title h2{
+padding: 0 300px 30px 218px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 120%;
+}
+.section7-title li{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+padding: 0 100px 3px 224px;
+
+}
+.section7-title a{
+  padding: 8px 35px;
+  border: 1.5px solid #004C92;
+  border-radius: 20px;
+  margin-left: 230px;
+  
+}
+.section7 img{
+  padding: 101px 230px 200px 00px;
+}
+.dopolnitel{
+  margin-bottom: 70px;
+}
+/* section7 uchun stillar */
+/* footer uchun stillar */
+footer{
+  background-color: #001E42;
+}
+.footer-end{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 54px;
+  padding-bottom: 157px;
+}
+.footer-end a{
+  font-family: 'TimeBurner';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+opacity: 0.6;
+padding-bottom: 5px ;
+color: #FFFFFF;
+}
+.footer-end li{
+  padding-top: 42px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 144%;
+opacity: 0.8;
+color: #FFFFFF
+}
+#produkti{
+  transition: all 1s ease-in-out;
+}
+#alsep{
+  transition: all 1s ease-in-out;
+}
+#kupit{
+  transition: all 1s ease-in-out;
+}
+#partneram{
+  transition: all 1s ease-in-out;
+}
+#o-nas{
+  transition: all 1s ease-in-out;
+}
+#kontakti{
+  transition: all 1s ease-in-out;
+}
+/* footer uchun stillar */
